@@ -6,7 +6,8 @@ using System.Web;
 
 namespace FactoryMethodDP.FactoryMethod
 {
-    //CONCRETE CREATOR. FACTORY. The way in wich you can create Employee Types. Can create different types of Employees depend on the logic of this METHOD.
+    //CONCRETE CREATOR. FACTORY. The way in wich you can create Employee Types. Can create different types of Employees depending
+    //on the logic of this METHOD.
     public class EmployeeManagerFactory
     {
         public BaseEmployeeFactory CreateFactory(Employee emp)
